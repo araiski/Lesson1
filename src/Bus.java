@@ -24,5 +24,20 @@ public class Bus {
 	void printBus(){
 		System.out.println("The Bus N" +number + " speed is-" +speed);
 	}
+	void spedUp(){
+		if (speed<maxSped)speed+=10;
+	}
+	
+	void spedDown(){
+		speed-=10;
+	}
+	void setNumder(String num){
+		number=num;
+	}
+	void stop(){
+		speed=0.0;
+	}
+	void printBus(){
+		System.out.println("The Bus N" +number + " speed is-" +speed);
 
 }

@@ -20,5 +20,15 @@ public class Lesson {
 		bus2.printBus();
 		bus3.printBus();
 	}
+	Bus[] buses = {bus1,bus2,bus3};
+	for(int i=0;i<buses.length; i++){
+		buses[i].start();
+	}
+	bus1.spedUp();
+	bus2.spedDown();
+	
+	bus1.printBus();
+	bus2.printBus();
+	bus3.printBus();
 
 }
